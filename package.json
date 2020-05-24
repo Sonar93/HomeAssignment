@@ -2,7 +2,7 @@
   "name": "home-assignment",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sonar93.github.com/HomeAssignment",
+  "homepage": "https://sonar93.github.io/HomeAssignment/",
   "dependencies": {
     "@material-ui/core": "^4.10.0",
     "@testing-library/jest-dom": "^4.2.4",

@@ -46,7 +46,10 @@ function Control() {
     <>
       <div className="col-md-12">
         <div className="row">
-          <div className="col-md-3" style={{ borderRight: "2px dotted #000" }}>
+          <div
+            className="col-md-3 col-sm-12"
+            style={{ border: "2px dotted #000" }}
+          >
             <h3>Services</h3>
             <div className="col-md-12">
               {services.data ? (
@@ -67,7 +70,7 @@ function Control() {
               )}
             </div>
           </div>
-          <div className="col-md-9">
+          <div className="col-md-9 col-sm-12">
             <div className="col-md-12">
               <Results data={results} />
             </div>

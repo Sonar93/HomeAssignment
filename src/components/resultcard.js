@@ -4,9 +4,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function resultcard(props) {
   const data = props.data;
   return (
-    <div className="card mb-3">
+    <div className="card mb-3 col-sm-6">
       <div className="row no-gutters">
-        <div className="col-md-4">
+        <div className="col-md-4 col-sm-6">
           {data["card-image"] ? (
             <img
               src={data["card-image"]}
@@ -17,7 +17,7 @@ function resultcard(props) {
             ""
           )}
         </div>
-        <div className="col-md-8">
+        <div className="col-md-8 col-sm-6">
           <div className="card-body">
             <h5 className="card-title">{data["name"]}</h5>
             <div className="card-text">

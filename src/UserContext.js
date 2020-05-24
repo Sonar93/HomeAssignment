@@ -9,9 +9,6 @@ class DataProvider extends Component {
     this.state = {
       services: [],
       providers: [],
-      control: [],
-      result: [],
-      loading: true,
     };
   }
   componentDidMount() {
